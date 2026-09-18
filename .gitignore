@@ -1,0 +1,69 @@
+# ----------------------------------------------------------------------
+# Build & Compiled Artifacts
+# ----------------------------------------------------------------------
+build/
+build_*/
+bin/
+lib/
+out/
+results/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+
+# ----------------------------------------------------------------------
+# CMake
+# ----------------------------------------------------------------------
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Makefile
+.vscode/
+
+# Exportação de comandos de compilação (usado por LSPs como clangd)
+compile_commands.json
+
+# ----------------------------------------------------------------------
+# IDEs & Editors
+# ----------------------------------------------------------------------
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.code-workspace
+
+# JetBrains (CLion / IntelliJ)
+.idea/
+cmake-build-*/
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+Session.vim
+
+# ----------------------------------------------------------------------
+# OS & Misc
+# ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.cache/
+.history/
+GEMINI.md
+
+# ----------------------------------------------------------------------
+# Nomai Specifics
+# ----------------------------------------------------------------------
+# Logs de execução local
+*.log
+
+# Evitar commitar configurações de teste locais (se houver)
+config.local.json
+secrets.json
